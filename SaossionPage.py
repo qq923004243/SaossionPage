@@ -141,7 +141,7 @@ class Browser:
     def wait(self, num: int):
         self.page.actions.wait(num)
         return self
-    def vip(self,url):
+    def vip_open(self,url):
         self.page.get(self.jiekou[0]+url)
 
     @property
@@ -333,23 +333,26 @@ class Tool:
 
 
 if __name__ == '__main__':
-    # 创建配置对象
-    import sys
+    # 创建配置对象 
 
     
+    # url2=r'https://tv.wandhi.com/go.html'
 
-  
-
-    
-    url2=r'https://tv.wandhi.com/go.html'
-
-
+    #连接浏览器
     browser=Browser(r"C:\Program Files\Google\Chrome\Application\chrome.exe")
 
+    #黑科技一 观看vip视频
+    browser.vip_open('https://v.qq.com/x/cover/mzc00200whsp9r6/j0047aj1c1n.html?ptag=11972')
 
-    browser.vip('https://v.qq.com/x/cover/mzc00200whsp9r6/j0047aj1c1n.html?ptag=11972')
- 
 
+    #黑科技二  查看某个元素的子元素结构树
+    browser.open('https://www.qq.com/')
+    body=browser.newest_page('x:/html/body')
+    Tool.tree(body)
+    
+    #黑科技三  调用jQuery操作网页
+    browser.loadjQuery()
+    browser.run(r'$("div").css("color", "red");')
 
 
     
