@@ -6,7 +6,7 @@
 
 
 
- **SaossionPage**   简称骚神page   Drissionpage 的变异版 Python库，内涵各种黑科技👹 慎用🔞！！！！
+ **SaossionPage**   简称 【骚神page】   Drissionpage 的变异版 Python库，内涵各种黑科技👹 慎用🔞！！！！
 
 您的星星⭐是对我最大的支持
 
@@ -18,7 +18,7 @@
 
 #  ☠️ 黑科技介绍
 
-![输入图片说明](./img/logo2.png)
+![输入图片说明](./img/logo3.png)
 
 ---
 -  ### 👻 科技一 免费观看VIP视频
