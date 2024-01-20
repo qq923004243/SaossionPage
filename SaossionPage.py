@@ -9,7 +9,7 @@ import time
 from DrissionPage import ChromiumPage
 from DrissionPage import ChromiumOptions
 from colorama import Fore, init
-from wcwidth import wcwidth
+
 
 import cmd
 
@@ -339,7 +339,7 @@ if __name__ == '__main__':
     # url2=r'https://tv.wandhi.com/go.html'
 
     #连接浏览器
-    browser=Browser(r"C:\Program Files\Google\Chrome\Application\chrome.exe")
+    browser=Browser(r"C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe")
 
     #黑科技一 观看vip视频
     browser.vip_open('https://v.qq.com/x/cover/mzc00200whsp9r6/j0047aj1c1n.html?ptag=11972')
@@ -353,6 +353,7 @@ if __name__ == '__main__':
     #黑科技三  调用jQuery操作网页
     browser.loadjQuery()
     browser.run(r'$("div").css("color", "red");')
+    
 
 
     
