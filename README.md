@@ -6,7 +6,7 @@
 
 
 
- **SaossionPage**   简称 【骚神page】   Drissionpage 的变异版 Python库，内涵各种黑魔法👹 慎用🔞！！！！
+ **SaossionPage**   简称 【骚神page】   Drissionpage 的姊妹版 Python库，内涵各种黑魔法👹 慎用🔞！！！！
 
 您的星星⭐是对我最大的支持
 
