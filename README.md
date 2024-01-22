@@ -65,4 +65,18 @@ if __name__ == '__main__':
 
 ```
 ---
+-  ### 🔥 魔法四  实时查看库的帮助文档
+
+```
+if __name__ == '__main__':
+     
+    #连接浏览器
+    browser=Browser(r"C:\Program Files\Google\Chrome\Application\chrome.exe")
+
+    #  实时查看库的帮助文档
+    browser.help('定位语法')
+       
+
+```
+---
 
